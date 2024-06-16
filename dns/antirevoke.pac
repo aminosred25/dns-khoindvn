@@ -1,0 +1,2 @@
+function d(u,r){return dnsDomainIs(u,r)}
+function FindProxyForURL(url,host){var h=host.toLowerCase();if(d(h,"ocsp.apple.com")||d(h,"ocsp2.apple.com")||d(h,"certs.apple.com")||d(h,"crl.apple.com")||d(h,"valid.apple.com")||d(h,"mesu.apple.com")||d(h,"appattest.apple.com")||d(h,"vpp.itunes.apple.com")||d(h,"comm-main.ess.apple.com")||d(h,"comm-cohort.ess.apple.com")||d(h,"axm-app.apple.com")||d(h,"gdmf.apple.com")||d(h,"guzzoni-apple-com.v.aaplimg.com"))return "PROXY 127.0.0.1:8021";return "DIRECT"}
