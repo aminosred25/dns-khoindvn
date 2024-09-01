@@ -5,3 +5,4 @@ crl.apple.com
 certs.apple.com
 appattest.apple.com
 vpp.itunes.apple.com
+afwprovisioning-pa.googleapis.com
